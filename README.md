@@ -88,14 +88,14 @@ Collection → Transform(Spark) → Analysis(LLM) → Aggregation(Kafka Streams)
 ## 🧭 배포/운영 스냅샷
 - 애플리케이션 ID: `review-aggregator-v3`(기본) 또는 `review-aggregator-enhanced-v1`(확장 사양)
 - 이미지: `hahxowns/review-aggregator:0.1.2` 또는 `hahxowns/review-aggregator-enhanced:0.2.0`
-- 배포 가이드: `kafka_stream/KAFKA_STREAMS_DEPLOYMENT.md`, `kafka_stream/deploy-enhanced.sh`
+- 배포 가이드: `kafka-streams/docs/KAFKA_STREAMS_DEPLOYMENT.md`, `kafka_stream/deploy-enhanced.sh`
 
 ---
 
 ## 📚 참고 문서/코드
-- `kafka_stream/ENHANCED_KAFKA_STREAMS_SPECIFICATION.md`
-- `kafka_stream/KAFKA_STREAMS_DEPLOYMENT.md`
-- `kafka_stream/CONTROL_TOPIC_SPECIFICATION.md`
-- `kafka_stream/CONTROL_TOPIC_IMPLEMENTATION_STATUS.md`
-- `kafka_stream/aggregator/src/main/java/com/example/aggregator/enhanced/*.java`
+- `kafka-streams/docs/ENHANCED_KAFKA_STREAMS_SPECIFICATION.md`
+- `kafka-streams/docs/KAFKA_STREAMS_DEPLOYMENT.md`
+- `kafka-streams/docs/CONTROL_TOPIC_SPECIFICATION.md`
+- `kafka-streams/docs/CONTROL_TOPIC_IMPLEMENTATION_STATUS.md`
+- `kafka-streams/aggregator/src/main/java/com/aggregator/*.java`
 
